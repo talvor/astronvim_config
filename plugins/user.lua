@@ -9,4 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    'Joakker/lua-json5',
+    build = './install.sh'
+  }
 }
